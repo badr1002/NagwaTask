@@ -21,5 +21,7 @@ $ npm start
 have at lest one verb, one noun, one adverb and one adjective and reurn it to frontend
 
 * handle check the total selections and get rate by total cureect answer/
-total qestions * 100
+total qestions * 100 return final result to frontend
 
+
+* frontend call backend by proxy
