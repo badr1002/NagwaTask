@@ -158,6 +158,7 @@ class CheckWordExam extends Component {
     handleReastTask = () => {
         this.setState(initialState)
         this.getData()
+        window.location.assign('/')
     }
 
 
@@ -187,8 +188,9 @@ class CheckWordExam extends Component {
                     {this.nextButton}
                     <button className='btn btn-success m-2' style={{ display: !this.state.submitButnStatus ? 'inline' : 'none' }} onClick={this.handleSubmit}>Submit</button>
                     <button className='btn btn-warning m-2' style={{ display: !this.state.tryAgainButnStatus ? 'inline' : 'none' }} onClick={this.handleReastTask}>Try Again</button>
+                    <p style={{ display: this.state.totalScoure > 0 ? 'block' : 'none' }} className='alert alert-info float-center m-5'>You Scoured {this.state.totalScoure}%</p>
                 </div>
-                <p style={{ display: this.state.totalScoure > 0 ? 'inline' : 'none' }} className='alert alert-info m-5'>You Scourd {this.state.totalScoure}%</p>
+               
             </React.Fragment >
         );
     }
