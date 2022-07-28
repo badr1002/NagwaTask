@@ -11,6 +11,7 @@ $ npm start
 * show progress wen select elemet parogress increse by answer number/total *100
 * Post all Selections to backend to handle the rate 
 * Show the final result rate
+* reast the task 
 
 # backend
 $ npm i 
@@ -21,3 +22,4 @@ have at lest one verb, one noun, one adverb and one adjective and reurn it to fr
 
 * handle check the total selections and get rate by total cureect answer/
 total qestions * 100
+
